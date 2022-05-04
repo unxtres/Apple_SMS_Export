@@ -1,0 +1,9 @@
+﻿SELECT message.text AS Message, handle.id AS 'From', datetime(substr(date, 1, 9) + 978307200, 'unixepoch', 'localtime') as Time, message.is_from_me, message.is_delivered
+FROM handle, message
+WHERE message.handle_id = handle.ROWID AND message.text is not null
+
+=================================
+
+https://reincubate.com/support/how-to/iphone-backup-files-structure/
+https://stackoverflow.com/questions/10746562/parsing-date-field-of-iphone-sms-file-from-backup
+https://stuartsplace.com/computing/programming/c-sharp/c-sharp-and-sqlite-exporting-data-text
