@@ -1,11 +1,4 @@
 # Apple_SMS_Export
-todo
+This little piece of software will export all sms messages from iphone backup.
 
-- clean code
-- searching for manifest in c:/3utools
-- translate exported file into human language
-- get contacts and add contact name to exported file
-
-Future
-- crate GUI
-- make own backup instead of using 3rd party software (3utools)
+All messages will be exported into separate txt files.
